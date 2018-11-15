@@ -1,0 +1,39 @@
+.visas {
+  font-family: 'Niramit', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  width: 800px;
+  background-color: rgba(158, 192, 247,0.3);
+}
+.sveiki {
+  margin: 10px;
+  padding: 20px;
+}
+input[type=button] {
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20%;
+    background-color: rgba(10, 87, 212, 0.3);
+}
+
+input[type=number] {
+  padding: 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: rgba(10, 212, 147, 0.3);
+}
+
+#ats {
+  height: 20px;
+  width: 50px;
+  padding: 2px;
+  margin: 8px 0;
+  background-color: rgba(10, 212, 147, 0.3);
+  display: inline-block;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
