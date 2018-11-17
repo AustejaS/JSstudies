@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
     <title></title>
   </head>
   <body>
@@ -12,19 +15,26 @@
 
     <div class="sveiki">
       Hello! <br>
-      This is my calculator!
+      This is my calculator! <br>
+      <i class="fas fa-calculator"></i>
     </div>
-    <div id="calcul">
+    <div >
       Please input your numbers:
-    <form action="calc">
+    <form action="calc" id="calcul">
       Pirmas skaicius: <input type="number" name="pirmasSkaicius" id="pirmasSk"><br>
       Antras skaicius: <input type="number" name="antrasSkaicius" id="antrasSk"><br>
-      <input type="button" value="Sum">
-      <input type="button" value="Subtract">
+      <button type="button" value="Sum"><i class="fas fa-plus"></i></button>
+      <button type="button" value="Subtract"><i class="fas fa-minus"></i></button>
+      <button type="button" value="Divide"><i class="fas fa-divide"></i></button>
+      <button type="button" value="Multiply"><i class="fas fa-times"></i></button>
+      <button type="button" value="Modus"><i class="fas fa-percent"></i></button>
+      <button type="button" value="Clear"><i class="far fa-trash-alt"></i></button>
+
+      <!-- <input type="button" value="Subtract">
       <input type="button" value="Divide">
       <input type="button" value="Multiply">
       <input type="button" value="Modus">
-      <input type="button" value="Clear">
+      <input type="button" value="Clear"> -->
 </form>
 <div id="ats">
 

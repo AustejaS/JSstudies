@@ -1,13 +1,18 @@
 let pirmaReiksme;
 let antraReiksme;
+let suma;
+let atimtis;
+let dalyba;
+let daugyba;
+let liekana;
+
 
 document.getElementById("calcul").addEventListener("click", function( event ) {
   console.log(event.target.value);
   switch (event.target.value) {
     case "Sum":
     suma=pirmaReiksme+antraReiksme;
-
-    document.getElementById("ats")=suma;
+    document.getElementById("ats").innerHTML=suma;
       console.log(`I will sum: ${suma}`);
       break;
       case "Subtract":
@@ -32,6 +37,8 @@ document.getElementById("calcul").addEventListener("click", function( event ) {
               break;
               case "Clear":
               console.log("trinu");
+              pirmaReiksme='';
+              antraReiksme='';
               document.getElementById("pirmasSk").value='';
               document.getElementById("antrasSk").value='';
               document.getElementById("ats").innerHTML='';
