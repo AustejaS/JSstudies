@@ -44,3 +44,6 @@ button {
     font-size: 16px;
     border-radius: 50%;
 }
+i {
+    pointer-events: none;
+}

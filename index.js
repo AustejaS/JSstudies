@@ -8,6 +8,7 @@ let liekana;
 
 
 document.getElementById("calcul").addEventListener("click", function( event ) {
+
   console.log(event.target.value);
   switch (event.target.value) {
     case "Sum":
